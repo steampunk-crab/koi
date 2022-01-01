@@ -1,2 +1,2 @@
 # koi
- A high-level programming language designed for embedded and systems programming
+ High-level syntax | Secure | Fast | AOT-compiled | Produces statically-linked executables
