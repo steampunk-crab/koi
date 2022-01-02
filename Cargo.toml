@@ -1,6 +1,6 @@
 [package]
 name = "koi-lang"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["Joseph Caruso <jcaru@jcaru.com>"]
 description = "🐟 High-level programming language 🐟 Cross-platform 🐟 Blazing performance 🐟 Static linking 🐟"
@@ -10,10 +10,14 @@ license = "MIT"
 
 [lib]
 name = "koi_api"
-path = "src/mod.rs"
+path = "src/koi/mod.rs"
 
 [[bin]]
 name = "koi"
-path = "src/main.rs"
+path = "src/koi/main.rs"
+
+[[bin]]
+name = "koic"
+path = "src/koic/main.rs"
 
 [dependencies]
