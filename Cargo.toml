@@ -1,9 +1,9 @@
 [package]
-name = "koi"
-version = "0.1.1"
+name = "koi-lang"
+version = "0.1.2"
 edition = "2021"
 authors = ["Joseph Caruso <jcaru@jcaru.com>"]
-description = "A high-level programming language that transpiles to Rust."
+description = "🐟 High-level programming language 🐟 Cross-platform 🐟 Blazing performance 🐟 Static linking 🐟"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
