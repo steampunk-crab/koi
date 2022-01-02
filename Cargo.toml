@@ -1,17 +1,19 @@
 [package]
 name = "koi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Joseph Caruso <jcaru@jcaru.com>"]
+description = "A high-level programming language that transpiles to Rust."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name="koi_api"
-path="src/mod.rs"
+name = "koi_api"
+path = "src/mod.rs"
 
 [[bin]]
-name="koi"
-path="src/main.rs"
+name = "koi"
+path = "src/main.rs"
 
 [dependencies]
